@@ -1,0 +1,26 @@
+body {
+  background-color: blueviolet;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  background-image: url(thems.jpeg);
+
+  text-align: center;
+  margin-top: 3%;
+  border: 3px solid rgb(188, 27, 27);
+  outline: 3px solid green;
+  width: 30%;
+  height: 300px;
+  border-radius: 4px;
+  box-shadow: 20px 30px 1000px 2px red;
+  /*          horizontal  vertical blur  spread color  */
+  /* for multiple shadow   h v b s c    h v b s c     h v b s c */
+}
+.row {
+  margin: 20px;
+}
+ .row label {
+  color: wheat;
+  float: right;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Lauout</title>
+    <style>
+        .main{
+            display: grid;
+            gap: 3px;
+            height: 400px;
+            grid-template-rows: 1fr 1fr 2fr;
+            grid-template-columns: 1fr 1fr minmax(50 200);
+
+        }
+        .griditems{
+            background-color: blueviolet;
+            font-size: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="griditems">😆</div>
+        <div class="griditems">😘</div>
+        <div class="griditems">💕</div>
+        <div class="griditems">😍</div>
+        <div class="griditems">❤️</div>
+        <div class="griditems"></div>
+        <div class="griditems"></div>
+        <div class="griditems"></div>
+        <div class="griditems"></div>
+        <div class="griditems"></div>
+    </div>
+</body>
+</html>

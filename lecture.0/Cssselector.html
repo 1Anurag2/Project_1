@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* universal selector * '' */
+        /* *{           
+         color: green;
+        } */
+     p[draggable = "false"]{
+        color: red;
+     }
+     *{
+        text-align: center;
+
+     }
+     p{
+        color: red;
+     }
+     .note{
+        font-size: 30px;
+     }
+     #id-selector-demo{
+        color: green;
+     }
+     li[value = "4"]{
+      color: blue;
+     }
+    </style>
+</head>
+<body>
+    <p draggable="true">Red</p>
+    <p draggable="true">Yellow</p>
+    <p draggable="false">Green</p>
+
+    <h1>CSS Selector</h1>
+    <h2>Applying CSS to Different Parts of HTML</h2>
+    <p class="note">1. The element selector target elements based on their HTML tag name.</p>
+    <ol>
+        <li class="note" id="id-selector-demo" > Id selectors target elements based on the value of the id attribute.</li>
+        <li class="note" value="2">Attribute selectors target elements based on their attributes and values</li>
+        <li class="note" value="3">Attribute selectors target elements based on their attributes and values</li>
+        <li class="note" value="4">Attribute selectors target elements based on their attributes and values</li>
+        <li class="note" value="5">Attribute selectors target elements based on their attributes and values</li>
+    </ol>
+</body>
+</html>

@@ -1,0 +1,32 @@
+form {
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid rgb(110, 46, 182);
+  background-color: rgb(110, 46, 182);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+input[type="checkbox"] {
+  margin-top: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+}
+
+a {
+  color: blue;
+  text-decoration: underline;
+}

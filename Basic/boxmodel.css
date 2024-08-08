@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+ /* * is universal element ko target karta h */
+}
+.container{
+    background-color: brown;
+    border: 4px solid green;
+    margin: 75px;
+    /* float: left; */
+    /* padding:50px; */
+    /* padding: 20px 10px 12px 80px; */
+    /* padding/margin: top right bottom left; */
+    /*padding : y(top/bottom)  x(left/right)*/
+    padding: 50px  100px;
+    box-sizing: border-box;   /*box-sizing properties do not change the box width
+    aur ye height me set ho jata hai*/
+}
+#second{
+    /* float: left; */
+    border: 4px solid rgb(5, 8, 76);
+}

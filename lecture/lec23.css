@@ -1,0 +1,28 @@
+.navbar{
+    background-color: rgb(9, 5, 5);
+    border-radius: 8px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 20px 12px;               /* top right bottom left*/
+}
+.navbar li a{
+text-decoration: none;
+padding: 3px 3px;
+color: beige;
+}
+li a:hover{
+    color: brown;
+}
+.navbar input {
+    float: right;
+    padding: 6px;
+    margin: 17px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 75px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <form action="/submit_signup" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <label for="cpwd">Confirm Password:</label><br>
+        <input type="password" id="cpwd" name="cpwd"><br>
+        <input type="checkbox" id="tou" name="tou" required>
+        <label for="tou">I accept the Terms of Use & Privacy Policy</label><br>
+        <input type="submit" value="Sign Up">
+        <label>Already have an account? <a href="/login">Login here</a></label>
+      </form>
+</body>
+</html>

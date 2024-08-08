@@ -1,0 +1,19 @@
+body{
+    /* margin: 500px; */
+    padding-left: 0;
+    padding-top: 200px;
+    border: 4px;
+    border-color: red;
+}
+.menubar{
+    border: 4px;
+    border-color: red;
+}
+ul span{
+    border: 5px;
+    border-radius: red;
+}
+li span{
+    background-color: blue;
+    border: 5px;
+}

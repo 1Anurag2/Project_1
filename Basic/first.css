@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 100vh;
+    background-color: #090b32;
+}
+h1{
+    margin: 10px;
+    padding: 0px;
+    position:relative;
+    top: 50%;
+    transform: translate(0%);
+    width: 100%;
+    text-align:center;
+    color: #ddd;
+    font-size: 5em;
+    font-family: sans-serif;
+    letter-spacing: 0.2em;
+}
+h1 span{
+    opacity: 0x;
+    display:inline-block;
+    animation:animate 1s linear infinite;
+}
+@keyframes animate
+{
+    0%
+    {
+        transform: rotateY(90deg);
+        opacity:0;
+        filter: blur(10px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0);
+    }
+}

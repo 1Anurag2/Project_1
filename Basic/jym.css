@@ -1,0 +1,36 @@
+body {
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSagwPaYGsvWw7J8-SYaHfM__5YFYbTqWD0UctLLvl8H73rHakmnuoRdqCmxXzNlurqw0o&usqp=CAU); */
+    backface-visibility: visible;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    height: 500px;
+    width: 900px;
+    margin-left: 600px;
+    margin-bottom: 500px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSagwPaYGsvWw7J8-SYaHfM__5YFYbTqWD0UctLLvl8H73rHakmnuoRdqCmxXzNlurqw0o&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+span {
+    margin: 10px;
+
+}
+
+span button {
+    margin: 10px;
+}
+
+span input {
+    width: 90px;
+    text-overflow: 50;
+}
+
+.artical {
+    font-family: sans-serif;
+    margin: 100;
+    padding: 200px;
+}

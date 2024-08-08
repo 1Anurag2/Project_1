@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    font-family: 'Mochiy Pop One', sans-serif;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('gif image/B5aTato.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    color: rgba(220, 214, 214, 0.955);
+    
+}
+h1,h2{
+    text-shadow:4px 4px 5px rgb(233, 100, 0) ;
+}
+
+
+#wish-box{
+    display: none;
+}

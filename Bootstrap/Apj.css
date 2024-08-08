@@ -1,0 +1,14 @@
+.container{
+    border: 2px solid black;
+    margin-top: 10px;
+}
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 40%;
+    margin-left: 40px;
+    margin-top: 5px;
+}
+#header{
+    margin-top: 10px;
+}

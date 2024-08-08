@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(205, 242, 238);
+}
+.navbar{
+    background-color: rgb(9, 5, 5);
+    border-radius: 8px;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 20px 12px;               /* top right bottom left*/
+}
+.navbar li a{
+text-decoration: none;
+padding: 3px 3px;
+color: beige;
+}
+li a:hover{
+    color: brown;
+}
+.navbar input {
+    float: right;
+    padding: 6px;
+    margin: 17px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 75px;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    margin: auto;
+    border: 2px solid black;
+    background-color: bisque;
+    border-radius: 6px;
+    margin-top: 10%;
+}
+.main{
+    margin: 10px;
+    padding-left: 100px;
+    /* border: 2px solid red; */
+    font-family:Arial, Helvetica, sans-serif;
+}
+.all{
+    margin: auto;
+    padding: 20px;
+    /* border: 2px solid black; */
+    border-radius: 4px;
+}
+.sub{
+    background-color: rgb(37, 210, 192);
+    float: right;
+    margin-right: 100px;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 2px solid black;
+}
+button:hover{
+    background-color: rgb(8, 120, 23);
+}
+#box1{
+    text-align: center;
+    padding: 7px;
+    margin: 2px;
+    margin-left: 60px;
+    border: 2px solid black ;
+    border-radius: 4px;
+}
+#box5{
+    padding: 7px;
+    margin: 2px;
+    margin-left: 35px;
+    border: 2px solid black ;
+    border-radius: 4px;
+}
+#from{
+    font-size: larger;
+}
+#box7{
+    padding: 7px;
+    margin: 2px;
+    margin-left: 50px;
+    border: 2px solid black ;
+    border-radius: 4px;
+}
+.btn{
+    background-color: rgb(12, 180, 149);
+    padding: 6px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 50px;
+    margin-top: 100px;
+}
+.btn:hover{
+    background-color: purple;
+    border: 2px solid rgb(9, 142, 42);
+}
+
+

@@ -1,0 +1,36 @@
+.pricing-container{
+    display: flex;
+    height: 900px;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.pricing-plan{
+    background-color: rgb(207, 202, 196);
+    text-align: center;
+    height: 200px;
+}
+.plan-title{
+    font-size: 19px;
+    margin: 15px 0px 5px 0px;
+}
+.plan-price{
+    font-weight: bold;
+    font-size: 22px;
+}
+.plan-feature{
+    margin-bottom: 10px;
+    list-style: none;
+}
+.plan-button{
+    background-color: rgb(255, 70, 9);
+    border-radius: 5px;
+    border: none;
+    padding: 3px;
+}
+@media (max-width : 900px) {
+    .pricing-container{
+        flex-direction: column;
+        height: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+.box{
+    border: 2px solid red;
+    margin: 5px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+}
+#box3{
+    /* relative means relative to its normal position  */
+    /* position: relative;           position absolute,relative,static,fixed,sticky */
+    /* absolute means relative to whole body position */
+    /* fixed position is used to fix the box when we scroll the page */
+    /* sticky is used to fix the box its own position */
+    position: fixed;
+    right:10px
+    /* top: 20px;
+    left: 50px; */
+}
+.container{
+    border: 2px solid black;
+    height: 1500px;
+}

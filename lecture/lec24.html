@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Css Display properties</title>
+    <style>
+        header {
+            border: 2px solid red;
+            width: 600px;
+            margin: auto;
+        }
+
+        h3 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            margin: auto;
+            /* padding-left: 70px; */
+            background-color: bisque;
+            text-align: center;
+        }
+
+        img {
+            height: 100px;
+            margin: auto;
+            /* margin-left: 117px; */
+            display: block;
+            /*display inline means takes its original height and width*/
+        }
+
+        /* .container {
+        margin-top: 15px;
+        border: 2px solid blue;
+        margin: 20px;
+        } */
+
+        .box {
+            margin: 5px;
+            border: 2px solid green;
+            padding: 10px;
+            background-color: gray;
+            display: inline-block;
+            width: 50%;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="top">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSagwPaYGsvWw7J8-SYaHfM__5YFYbTqWD0UctLLvl8H73rHakmnuoRdqCmxXzNlurqw0o&usqp=CAU"
+            alt="Error">
+        <h3>This is jym profile</h3>
+    </header>
+        <div class="container">
+            <div class="box">
+                <h3 class="heading ">Heading 1</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore dolor quisquam rem, optio ipsam
+                    expedita debitis sed ipsa nemo explicabo laboriosam pariatur in vero neque necessitatibus cupiditate
+                    eveniet doloribus qui!</p>
+            </div>
+            <div class="box">
+                <h3 class="heading ">Heading 2</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore dolor quisquam rem, optio ipsam
+                    expedita debitis sed ipsa nemo explicabo laboriosam pariatur in vero neque necessitatibus cupiditate
+                    eveniet doloribus qui!</p>
+            </div>
+            <div class="box">
+                <h3 class="heading ">Heading 3</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore dolor quisquam rem, optio ipsam
+                    expedita debitis sed ipsa nemo explicabo laboriosam pariatur in vero neque necessitatibus cupiditate
+                    eveniet doloribus qui!</p>
+            </div>
+        </div>
+</body>
